@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Capstone</string>
+    <string name="username">Username</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="aruzakii">aruzakii</string>
+    <string name="fahrel_ardzaky">Fahrel Ardzaky</string>
+    <string name="title_favorite">favorite</string>
+    <string name="github_user_s_search">Github User\'s Search</string>
+    <string name="cari">Cari</string>
+    <string name="masukkan_yang_dicari">Masukkan Yang dicari</string>
+</resources>
