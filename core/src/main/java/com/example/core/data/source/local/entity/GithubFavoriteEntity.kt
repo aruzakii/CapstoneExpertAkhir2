@@ -9,7 +9,6 @@ import com.google.gson.annotations.SerializedName
 @Entity(tableName = "githubfav")
 data class GithubFavoriteEntity(
     @PrimaryKey
-    @NonNull
     @ColumnInfo(name = "id")
     var id: Int,
 

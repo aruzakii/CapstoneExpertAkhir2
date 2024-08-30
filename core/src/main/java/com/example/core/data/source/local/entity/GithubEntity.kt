@@ -8,7 +8,6 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "github")
 data class GithubEntity(
     @PrimaryKey
-    @NonNull
     @ColumnInfo(name = "id")
     var id: Int,
 
