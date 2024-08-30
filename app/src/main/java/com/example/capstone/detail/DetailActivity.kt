@@ -1,5 +1,6 @@
 package com.example.capstone.detail
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -81,12 +82,13 @@ class DetailActivity : AppCompatActivity() {
     }
 
 
+    @SuppressLint("SetTextI18n")
     private fun showDetailTourism(detailGithub: List<GithubDetail>) {
         detailGithub.map {
             binding.name.text = it.name
             binding.username.text = it.login
-            binding.followers.text = "Followers ${it.followers.toString()}"
-            binding.following.text = "Following ${it.following.toString()}"
+            binding.followers.text = "Followers ${it.followers}"
+            binding.following.text = "Following ${it.following}"
 
             Glide.with(this)
                 .load(it.avatarUrl)

@@ -1,5 +1,6 @@
 package com.example.core.ui
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,6 +17,7 @@ class GithubAdapter : RecyclerView.Adapter<GithubAdapter.ListViewHolder>() {
     private var listData = ArrayList<Github>()
     var onItemClick: ((Github) -> Unit)? = null
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setData(newListData: List<Github>?) {
         if (newListData == null) return
         listData.clear()

@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Capstone</string>
-    <string name="username">Username</string>
     <string name="following">Following</string>
     <string name="followers">Followers</string>
     <string name="aruzakii">aruzakii</string>
@@ -9,4 +8,8 @@
     <string name="github_user_s_search">Github User\'s Search</string>
     <string name="cari">Cari</string>
     <string name="masukkan_yang_dicari">Masukkan Yang dicari</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="detailprofil">detailprofil</string>
+    <string name="tomboladd">tomboladd</string>
 </resources>

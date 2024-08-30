@@ -25,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menuActivity"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@string/detailprofil" />
 
     <TextView
         android:id="@+id/name"
@@ -100,6 +101,7 @@
         app:layout_anchorGravity="bottom|end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_belom_favorite" />
+        app:srcCompat="@drawable/ic_belom_favorite"
+        android:contentDescription="@string/tomboladd" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

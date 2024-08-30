@@ -43,6 +43,7 @@ dependencies {
     //room
     var room_version = "2.6.1"
     implementation("androidx.room:room-runtime:$room_version")
+    //noinspection KaptUsageInsteadOfKsp
     kapt("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
     androidTestImplementation("androidx.room:room-testing:$room_version")
@@ -58,8 +59,8 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
-    var kotlin_coroutines_version = "1.3.9"
-    var lifecycle_version = "2.2.0"
+    var kotlin_coroutines_version = "1.7.3"
+    var lifecycle_version = "2.8.4"
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version")
     api("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
